@@ -1,40 +1,14 @@
-# Sticky Sidebar [![Build Status](https://travis-ci.org/abouolia/sticky-sidebar.svg?branch=3.2.0)](https://travis-ci.org/abouolia/sticky-sidebar)
-
-Pure JavaScript plugin for making smart and high performance sticky sidebars.
-
-[Basic Example](https://abouolia.github.io/sticky-sidebar/examples/basic.html)
-
-[Scrollable Sticky Element](https://abouolia.github.io/sticky-sidebar/examples/scrollable-element.html)
-
-For complete documentation and examples see [abouolia.github.com/sticky-sidebar](http://abouolia.github.com/sticky-sidebar)
-
-## Why is sticky sidebar so awesome?
-
-* It does not re-calculate all dimensions when scrolling, just necessary dimensions.
-* Super smooth without incurring scroll lag or jank and no page reflows.
-* Integrated with resize sensor to re-calculate all dimenstions of the plugin when size of sidebar or its container is changed.
-* It has event trigger on each affix type to hook your code under particular situation.
-* Handle the sidebar when is tall or too short compared to the rest of the container.
-* Zero dependencies and super simple to setup.
+# Sticky Sidebar ES5 
+## IE 11 Support
 
 ## Install
-
-You can download sticky sidebar jQuery plugin from Bowser, NPM or just simply download it from this page and link to the ``sticky-sidebar.js`` file in your project folder.
-
-#### Bower
-
-If you are using bower as package manager:
-
-````
-bower install sticky-sidebar
-````
 
 #### NPM
 
 If you are using NPM as package manager:
 
 ````
-npm install sticky-sidebar
+npm install sticky-sidebar-es5
 ````
 
 ## Usage
@@ -101,10 +75,4 @@ Sticky sidebar works in all modern browsers including Internet Explorer 9 and ab
 
 If you have any issues with browser compatibility don’t hesitate to [Submit an issue](https://github.com/abouolia/sticky-sidebar/issues/new).
 
-## License
-
-Sticky Sidebar is released under the MIT license. Have at it.
-
--------
-
-Made by Ahmed Bouhuolia
+ 
